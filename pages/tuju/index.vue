@@ -16,8 +16,8 @@ const start = [
 
 const up = [
   {
-    title: "tere",
-    fill: "FFCC80",
+    title: "",
+    fill: "#FFCC80",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
@@ -27,11 +27,11 @@ const up = [
   },
   {
     title: "",
-    fill: "##FDE68A",
+    fill: "#FDE68A",
     icon: "/assets/smiling-face-with-halo.svg",
   },
   {
-    title: "",
+    title: "tere",
     fill: "#FECDD3",
     icon: "/assets/face-with-open-mouth.svg",
   },
