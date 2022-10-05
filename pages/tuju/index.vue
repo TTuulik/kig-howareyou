@@ -2,10 +2,11 @@
 definePageMeta({ layout: "default" });
 
 const start = [
+
   {
     title: "",
-    fill: "red",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "lightblue",
+    icon: "/assets/confused-face.svg",
   },
   {
     title: "",
@@ -15,46 +16,48 @@ const start = [
 ];
 
 const up = [
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
+{
+
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/smiling-face-with-smiling-eyes",
+
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/smiling-face-with-open-mouth-and-smiling-eyesg",
+},
+{
+
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/smiling-face-with-heart-shaped-eyes",
+},
+{
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/smiling-face-with-halo",
+},
+{
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/face-with-open-mouth",
+},
+{
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/face-with-stuck-out-tongue-and-tightly-closed-eyes",
+},
+{
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/face-savouring-delicious-food",
+},
+{
+title: "",
+fill: "#ffaaaa",
+icon: "/assets/grinning-face",
+},
+
 ];
 
 const up2 = [
