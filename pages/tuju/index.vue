@@ -19,10 +19,6 @@ const up = [
     title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
-
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-open-mouth-and-smiling-eyes.svg",
   },
   {
     title: "",
