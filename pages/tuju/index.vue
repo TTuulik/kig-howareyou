@@ -16,7 +16,7 @@ const start = [
 
 const up = [
   {
-    title: "",
+    title: "tere",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
