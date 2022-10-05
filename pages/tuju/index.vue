@@ -122,7 +122,7 @@ const down2 = [
   {
     title: "",
     fill: "#DFF996",
-    icon: "/assets/leaf-outline.svg",
+    icon: "/assets/leaf-outline.svg", size 30px,
   },
   {
     title: "",
