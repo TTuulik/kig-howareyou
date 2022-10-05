@@ -4,7 +4,6 @@ definePageMeta({ layout: "default" });
 const options = [
   {
     title: "Õnn",
-    fill: "#ffaaaa",
     options: [
       {
         title: "Rahulolev",
@@ -18,7 +17,6 @@ const options = [
   },
   {
     title: "Elevus",
-    fill: "yellow",
     options: [
       {
         title: "Optimistlik",
@@ -32,33 +30,81 @@ const options = [
   },
   {
     title: "Üllatus",
-    fill: "red",
-    options: [{ title: "Segaduses" }, { title: "Kergendunud" }],
+    options: [
+      {
+         title: "Segaduses",
+         options: [{ title: "Imestunud" }, { title: "Jahmunud" }],
+      },
+      {
+        title: "Overcome",
+        options: [{ title: "Liigutatud" }, { title: "Ülekoormatud" }],
+      },
+    ],
   },
   {
-    title: "Mure",
-    fill: "green",
-    options: [{ title: "Ebakindel" }, { title: "Kartlik" }],
+    title: "Hirm",
+    options: [
+      {
+        title: "Ebakindel",
+        options: [{ title: "Ärev" }, { title: "Abitu" }],
+      },
+      {
+        title: "Kartlik",
+        options: [{ title: "Paanika" }, { title: "Surmahirm" }],
+      },
+    ],
   },
   {
     title: "Viha",
-    fill: "#ffaaaa",
-    options: [{ title: "Ärritunud" }, { title: "Vaenulik" }],
+    options: [
+      {
+        title: "Ärritunud",
+         options: [{ title: "Põlgus" }, { title: "Raev" }],
+         },
+         {
+          title: "Vaenulik",
+           options: [{ title: "Vihkamine"}, { title: "Vastumeelsus"}],
+        },
+      ],
   },
   {
     title: "Kurbus",
-    fill: "yellow",
-    options: [{ title: "Ahastus" }, { title: "Valu" }],
+    options: [
+      {
+        title: "Ahastus",
+         options: [{ title: "Agoonia" }, { title: "Masendus"}],
+         },
+         {
+          title: "Valu",
+           options: [{ title: "Kurvastus" }, { title: "Üksildus"}],
+        },
+      ],
   },
   {
     title: "Hoolivus",
-    fill: "red",
-    options: [{ title: "Murelik" }, { title: "Empaatiline" }],
+    options: [
+      {
+        title: "Murelik",
+         options: [{ title: "Vaevatud" }, { title: "Kaastundlik" }],
+         },
+         {
+          title: "Empaatiline",
+           options: [{ title: "Kaasaelav" }, { title: "Osavõtlik"}],
+        },
+      ],
   },
   {
     title: "Armastus",
-    fill: "green",
-    options: [{ title: "Iha" }, { title: "Kirglik" }],
+    options: [
+      {
+        title: "Iha",
+         options: [{ title: "Sentimentaalne" }, { title: "Hellitav" }],
+         },
+         {
+          title: "Kirg",
+           options: [{ title: "Romantiline" }, { title: "Igatsus" }],
+        },
+      ],
   },
 ];
 
