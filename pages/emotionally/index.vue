@@ -1,3 +1,6 @@
+<script setup>
+setTimeout(async () => await navigateTo("/emotionally/feelings"), 1000);
+</script>
 <template>
   <img
     src="/assets/css/Background.png"
