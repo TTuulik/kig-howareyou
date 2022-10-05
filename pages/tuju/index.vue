@@ -78,17 +78,17 @@ const up2 = [
 const down = [
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "purple",
     icon: "/assets/angry-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "lightpurple",
     icon: "/assets/confounded-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "skyblue",
     icon: "/assets/confused-face.svg",
   },
   {
