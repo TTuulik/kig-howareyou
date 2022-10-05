@@ -108,13 +108,13 @@ const down = [
   },
   {
     title: "",
-    fill: "#C7B8B7",
+    fill: "#lightpurple",
     icon: "/assets/tired-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/disappointed-but-relieved-face.svg",
+    fill: "#C7B8B7",
+    icon: "/assets/face-with-look-of-triumf.svg",
   },
 ];
 
