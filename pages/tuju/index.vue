@@ -114,7 +114,7 @@ const down = [
   {
     title: "",
     fill: "#C7B8B7",
-    icon: "/assets/face-with-look-of-triumf.svg",
+    icon: "/assets/face-with-look-of-triumph.svg",
   },
 ];
 
