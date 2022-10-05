@@ -3,12 +3,12 @@ definePageMeta({ layout: "default" });
 
 const start = [
   {
-    title: "?",
+    title: "",
     fill: "red",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "yellow",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
@@ -16,42 +16,42 @@ const start = [
 
 const up = [
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
@@ -59,22 +59,22 @@ const up = [
 
 const up2 = [
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
@@ -82,42 +82,42 @@ const up2 = [
 
 const down = [
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
@@ -125,22 +125,22 @@ const down = [
 
 const down2 = [
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "?",
+    title: "",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
