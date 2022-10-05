@@ -93,17 +93,17 @@ const down = [
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "9FA1A1",
     icon: "/assets/disappointed-but-relieved-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#faebecc",
     icon: "/assets/expressionless-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#83ABC1",
     icon: "/assets/loudly-crying-face.svg",
   },
   {
