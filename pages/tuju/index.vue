@@ -2,10 +2,11 @@
 definePageMeta({ layout: "default" });
 
 const start = [
+
   {
     title: "",
-    fill: "red",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "lightblue",
+    icon: "/assets/confused-face.svg",
   },
   {
     title: "",
