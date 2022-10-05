@@ -1,42 +1,37 @@
 <script setup>
-definePageMeta({ layout: "emotionally" });
-const options = [
-  {
-    title: "Tired",
-    fill: "#2F4E3E",
-  },
-  {
-    title: "Sad",
-    fill: "#556D73",
-  },
-  {
-    title: "Angry",
-    fill: "#252C23",
-  },
-  {
-    title: "Anxious",
-    fill: "#3A4240",
-  },
-  {
-    title: "Mental block",
-    fill: "#556D73",
-  },
-  {
-    title: "Confused",
-    fill: "#3A4240",
-  },
-];
-
-const selected = $ref();
-const onSelect = (sector) => (selected = sector);
+setTimeout(async () => await navigateTo("/emotionally/feelings"), 1000);
 </script>
-<template class="">
-  <div>
-    <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" />
-    <div style="padding-left:50px; padding-top: 130px; word-wrap: break-word;">
-      <CircleWheel :options="options" @select="onSelect" />
+<template>
+  <img
+    src="/assets/css/Background.png"
+    class="h-screen object-cover fixed -z-10"
+  />
+  <div
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 640px;
+      height: 100%;
+    "
+  >
+    <div
+      style="
+        height: 185px;
+        width: 100%;
+        background: #424f3db2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25),
+          inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      "
+    >
+      <img src="/assets/css/Logo.png" alt="Emotionally logo" />
+      <p style="color: #fff; text-align: center; font-size: 16px">
+        To guide your body and heal your mind
+      </p>
     </div>
-    <h1 style="color:#fff; padding-top:245px; padding-left: 20px; font-size: 40px;">Feelings</h1>
-
   </div>
 </template>
