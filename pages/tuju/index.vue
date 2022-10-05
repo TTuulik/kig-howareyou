@@ -4,13 +4,13 @@ definePageMeta({ layout: "default" });
 const start = [
   {
     title: "",
-    fill: "red",
+    fill: "yellow",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "yellow",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "blue",
+    icon: "/assets/confused-face.svg",
   },
 ];
 
