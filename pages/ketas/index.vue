@@ -131,7 +131,7 @@ const onSelect3 = (sector) => (selected3 = sector);
 <template>
   <div class="flex items-center justify-center h-full">
     <div class="p-8">
-      <TestWheel>
+      <TestWheel :size="800">
         <TestSlices
           @select="onSelect1"
           :options="options"
@@ -142,15 +142,15 @@ const onSelect3 = (sector) => (selected3 = sector);
           @select="onSelect2"
           :options="options2"
           :inner="120"
-          :outer="240"
-          :class="[selected1 ? '' : 'blur-xl']"
+          :outer="220"
+          :class="[selected1 ? '' : '']"
         />
         <TestSlices
           @select="onSelect3"
           :options="options3"
-          :inner="240"
+          :inner="220"
           :outer="350"
-          :class="[selected2 ? '' : 'blur-xl']"
+          :class="[selected2 ? '' : '']"
         />
       </TestWheel>
     </div>

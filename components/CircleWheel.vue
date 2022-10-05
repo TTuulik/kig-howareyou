@@ -3,7 +3,7 @@ const { options = [] } = defineProps(["options"]);
 defineEmits(["select"]);
 
 const items = options.map((option, i) => {
-  const point = polar(i * (180 / (options.length - 1)), 120);
+  const point = polar(i * (180 / (options.length - 1)), 270);
   return { ...option, point };
 });
 </script>
@@ -12,10 +12,10 @@ const items = options.map((option, i) => {
     <button
       v-for="(item, i) in items"
       @click="$emit('select', item)"
-      class="w-16 text-sm rounded-full h-16 absolute bg-black text-white grid place-items-center text-center -translate-x-5 -translate-y-5"
+      class="w-24 text-sm rounded-full h-24 absolute bg-black text-white grid place-items-center text-center -translate-x-5 -translate-y-5"
       :style="{
-        left: item.point.x / 1.5 + 'px',
-        top: i * 70 + 'px',
+        left: item.point.x / 1.3 + 'px',
+        top: i * 100 + 'px',
         background: item.fill,
       }"
     >

@@ -3,12 +3,12 @@ definePageMeta({ layout: "default" });
 
 const start = [
   {
-    title: "Õnnelik",
+    title: "",
     fill: "red",
-    icon: "https://api.iconify.design/iconoir:3d-add-hole.svg",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "Elevil",
+    title: "",
     fill: "yellow",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
@@ -16,37 +16,133 @@ const start = [
 
 const up = [
   {
-    title: "Õnnelik",
+    title: "",
     fill: "#ffaaaa",
-    icon: "https://api.iconify.design/iconoir:3d-add-hole.svg",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "Elevil",
-    fill: "yellow",
-  },
-  {
-    title: "Üllatunud",
-    fill: "red",
-  },
-  {
-    title: "Mures",
-    fill: "green",
-  },
-  {
-    title: "Vihane",
+    title: "",
     fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "Kurb",
-    fill: "yellow",
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "Hooliv",
-    fill: "red",
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "Armastav",
-    fill: "green",
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+];
+
+const up2 = [
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+];
+
+const down = [
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/angry-face.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/confounded-face.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/confused-face.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/disappointed-but-relieved-face.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/expressionless-face.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/loudly-crying-face.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/tired-face.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+];
+
+const down2 = [
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+  },
+  {
+    title: "",
+    fill: "#ffaaaa",
+    icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
 ];
 </script>
@@ -54,6 +150,7 @@ const up = [
 <template>
   <div class="">
     <div>
+      <div>Start</div>
       <TestWheel>
         <TestSlices
           :options="start"
@@ -63,9 +160,40 @@ const up = [
           :padding="2"
         />
       </TestWheel>
+      <div>Up</div>
       <TestWheel>
         <TestSlices
           :options="up"
+          :inner="50"
+          :outer="150"
+          :corner="5"
+          :padding="2"
+        />
+      </TestWheel>
+      <div>Up2</div>
+      <TestWheel>
+        <TestSlices
+          :options="up2"
+          :inner="50"
+          :outer="150"
+          :corner="5"
+          :padding="2"
+        />
+      </TestWheel>
+      <div>Down</div>
+      <TestWheel>
+        <TestSlices
+          :options="down"
+          :inner="50"
+          :outer="150"
+          :corner="5"
+          :padding="2"
+        />
+      </TestWheel>
+      <div>Down2</div>
+      <TestWheel>
+        <TestSlices
+          :options="down2"
           :inner="50"
           :outer="150"
           :corner="5"
