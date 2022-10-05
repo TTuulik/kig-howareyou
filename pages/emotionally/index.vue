@@ -30,10 +30,13 @@ const options = [
 const selected = $ref();
 const onSelect = (sector) => (selected = sector);
 </script>
-<template>
+<template class="">
   <div>
-    <img src="/assets/Background.jpg" class="fixed inset-0" />
-    <CircleWheel :options="options" @select="onSelect" />
-    You selected {{ selected?.title }}
+    <img src="/assets/Background.jpg" class="h-screen object-cover fixed -z-10" />
+    <div style="padding-left:50px; padding-top: 130px; word-wrap: break-word;">
+      <CircleWheel :options="options" @select="onSelect" />
+    </div>
+    <h1 style="color:#fff; padding-top:245px; padding-left: 20px; font-size: 40px;">Feelings</h1>
+
   </div>
 </template>
