@@ -35,7 +35,7 @@ icon: "/assets/smiling-face-with-heart-shaped-eyes",
 {
 title: "",
 fill: "#ffaaaa",
-icon: "/assets/smiling-face-with-hao",
+icon: "/assets/smiling-face-with-halo",
 },
 {
 title: "",
