@@ -121,23 +121,23 @@ const down = [
 const down2 = [
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#DFF996",
+    icon: "/assets/leaf-outline.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#FEF08A",
+    icon: "/assets/artist-palette.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#BBF7D0",
+    icon: "/assets/brains.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#F5E3A0",
+    icon: "/assets/body-outline.svg",
   },
 ];
 </script>
