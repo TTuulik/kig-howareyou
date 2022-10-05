@@ -1,5 +1,9 @@
+<script setup>
+const { size = 400 } = defineProps(["size"]);
+</script>
+
 <template>
-  <svg width="400" height="400" class="block">
-    <g transform="translate(200, 200)"><slot /></g>
+  <svg :width="size" :height="size" class="block">
+    <g :transform="translate(size / 2, size / 2)"><slot /></g>
   </svg>
 </template>

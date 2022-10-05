@@ -24,7 +24,7 @@ const sectors = options.map((option, i) => {
   );
   const point = polar(currentAngle + sector / 2, sectorMiddleRadius);
   const fill = option.fill || hsl(currentAngle, 100, 50);
-  const flip = currentAngle >= 90 && currentAngle < 270;
+  const flip = currentAngle >= 180 && currentAngle < 0;
   const transform = [
     rotate(currentAngle + sector / 2 - 90),
     translate(sectorMiddleRadius, 0),
@@ -34,7 +34,7 @@ const sectors = options.map((option, i) => {
 });
 </script>
 <template>
-  <g class="rotate(90)">
+  <g class="rotate(0)">
     <g v-for="(sector, i) in sectors">
       <path
         :d="sector.d"
@@ -72,7 +72,7 @@ const sectors = options.map((option, i) => {
         style="pointer-events: none"
         dominant-baseline="middle"
         text-anchor="middle"
-        :transform="[sector.transform, 'translate(20,0)'].join()"
+        :transform="sector.transform"
       >
         {{ sector.title }}
       </text>
