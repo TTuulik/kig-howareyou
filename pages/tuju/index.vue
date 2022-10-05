@@ -122,22 +122,22 @@ const down2 = [
   {
     title: "",
     fill: "#DFF996",
-    icon: "/assets/leaf-outline.svg", size 30px,
+    icon: "/assets/leaf-outline.svg", size 40px,
   },
   {
     title: "",
     fill: "#FEF08A",
-    icon: "/assets/artist-palette.svg",
+    icon: "/assets/artist-palette.svg", size 40px,
   },
   {
     title: "",
     fill: "#BBF7D0",
-    icon: "/assets/brain.svg",
+    icon: "/assets/brain.svg", size 40px,
   },
   {
     title: "",
     fill: "#F5E3A0",
-    icon: "/assets/body-outline.svg",
+    icon: "/assets/body-outline.svg", size 40px,
   },
 ];
 </script>
