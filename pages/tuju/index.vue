@@ -55,22 +55,22 @@ const up = [
 const up2 = [
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "FEF08A",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FDBA74",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FDE047",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FECDD3",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
 ];
