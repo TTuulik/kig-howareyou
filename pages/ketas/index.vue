@@ -128,12 +128,19 @@ const selected3 = $ref();
 const onSelect1 = (sector) => (selection[sector.title] = true);
 const onSelect2 = (sector) => (selected2 = sector);
 const onSelect3 = (sector) => (selected3 = sector);
+const rotation = $ref(0);
 </script>
 
 <template>
   <div class="flex items-center justify-center h-full">
     <div class="p-8">
-      <TestWheel :size="800">
+      <TestWheel
+        :size="800"
+        :style="{
+          transform:
+            'translate(-50px,220px) rotate(' + rotation + 'deg) scale(1.3)',
+        }"
+      >
         <TestSlices
           @select="onSelect1"
           :selection="selection"
@@ -156,6 +163,9 @@ const onSelect3 = (sector) => (selected3 = sector);
           :outer="350"
         />
       </TestWheel>
+    </div>
+    <div class="fixed top-8 left-8">
+      <input type="range" v-model.number="rotation" class="w-64" max="360" />
     </div>
   </div>
 </template>

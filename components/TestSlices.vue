@@ -1,4 +1,6 @@
 <script setup>
+import { interpolateSinebow } from "d3";
+console.log(interpolateSinebow(0.5));
 const {
   options,
   inner = 0,
@@ -31,7 +33,9 @@ const sectors = options.map((option, i) => {
     padding
   );
   const point = polar(currentAngle + sector / 2, sectorMiddleRadius);
-  const fill = option.fill || hsl(currentAngle, 100, 50);
+  //const fill = option.fill || hsl(currentAngle, 100, 50);
+  const fill =
+    option.fill || interpolateSinebow(remap(currentAngle, 0, 360, 0, 1));
   const flip = currentAngle >= 180 && currentAngle < 0;
   const transform = [
     rotate(currentAngle + sector / 2 - 90),
@@ -47,8 +51,8 @@ const sectors = options.map((option, i) => {
       <path
         :d="sector.d"
         :fill="sector.fill"
-        :opacity="selection[sector.title] ? 0.8 : 0.5"
-        :class="[selection[sector.title] ? 'brightness-50' : '']"
+        :opacity="selection[sector.title] ? 0.9 : 0.5"
+        :class="[selection[sector.title] ? '' : '']"
         @click="$emit('select', sector)"
       />
       <!-- <text
