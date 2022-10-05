@@ -17,37 +17,37 @@ const start = [
 const up = [
   {
     title: "tere",
-    fill: "#ffaaaa",
+    fill: "FFCC80",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FDBA74",
     icon: "/assets/smiling-face-with-heart-shaped-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "##FDE68A",
     icon: "/assets/smiling-face-with-halo.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FECDD3",
     icon: "/assets/face-with-open-mouth.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FFBB89",
     icon: "/assets/face-with-stuck-out-tongue-and-tightly-closed-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FED7AA",
     icon: "/assets/face-savouring-delicious-food.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FECACA",
     icon: "/assets/grinning-face.svg",
   },
 ];
