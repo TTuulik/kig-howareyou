@@ -17,37 +17,37 @@ const start = [
 const up = [
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FFCC80",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FDBA74",
     icon: "/assets/smiling-face-with-heart-shaped-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FDE68A",
     icon: "/assets/smiling-face-with-halo.svg",
   },
   {
-    title: "",
-    fill: "#ffaaaa",
+    title: "tere",
+    fill: "#FECDD3",
     icon: "/assets/face-with-open-mouth.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FFBB89",
     icon: "/assets/face-with-stuck-out-tongue-and-tightly-closed-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FED7AA",
     icon: "/assets/face-savouring-delicious-food.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FECACA",
     icon: "/assets/grinning-face.svg",
   },
 ];
@@ -55,22 +55,22 @@ const up = [
 const up2 = [
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "FEF08A",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FDBA74",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FDE047",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#FECDD3",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
 ];
@@ -78,66 +78,66 @@ const up2 = [
 const down = [
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "purple",
     icon: "/assets/angry-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "lightpurple",
     icon: "/assets/confounded-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "skyblue",
     icon: "/assets/confused-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#9FA1A1",
     icon: "/assets/disappointed-but-relieved-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#faebecc",
     icon: "/assets/expressionless-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#83ABC1",
     icon: "/assets/loudly-crying-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#lightpurple",
     icon: "/assets/tired-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#C7B8B7",
+    icon: "/assets/face-with-look-of-triumph.svg",
   },
 ];
 
 const down2 = [
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#DFF996",
+    icon: "/assets/leaf-outline.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#FEF08A",
+    icon: "/assets/artist-palette.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#BBF7D0",
+    icon: "/assets/brain.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#F5E3A0",
+    icon: "/assets/body-outline.svg",
   },
 ];
 </script>
