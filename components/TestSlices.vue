@@ -5,7 +5,15 @@ const {
   outer = 100,
   corner = 0,
   padding = 0,
-} = defineProps(["options", "inner", "outer", "corner", "padding"]);
+  selection = {},
+} = defineProps([
+  "options",
+  "inner",
+  "outer",
+  "corner",
+  "padding",
+  "selection",
+]);
 defineEmits(["select"]);
 
 const sectors = options.map((option, i) => {
@@ -39,7 +47,8 @@ const sectors = options.map((option, i) => {
       <path
         :d="sector.d"
         :fill="sector.fill"
-        opacity="0.5"
+        :opacity="selection[sector.title] ? 0.8 : 0.5"
+        :class="[selection[sector.title] ? 'brightness-50' : '']"
         @click="$emit('select', sector)"
       />
       <!-- <text

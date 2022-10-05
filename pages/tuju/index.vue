@@ -4,8 +4,8 @@ definePageMeta({ layout: "default" });
 const start = [
   {
     title: "",
-    fill: "red",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "lightblue",
+    icon: "/assets/confused-face.svg",
   },
   {
     title: "",
@@ -16,44 +16,39 @@ const start = [
 
 const up = [
   {
-    title: "",
+    title: "tere",
     fill: "#ffaaaa",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
     title: "",
     fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "/assets/smiling-face-with-heart-shaped-eyes.svg",
   },
   {
     title: "",
     fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "/assets/smiling-face-with-halo.svg",
   },
   {
     title: "",
     fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "/assets/face-with-open-mouth.svg",
   },
   {
     title: "",
     fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "/assets/face-with-stuck-out-tongue-and-tightly-closed-eyes.svg",
   },
   {
     title: "",
     fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "/assets/face-savouring-delicious-food.svg",
   },
   {
     title: "",
     fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
-  },
-  {
-    title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "/assets/grinning-face.svg",
   },
 ];
 
@@ -83,43 +78,43 @@ const up2 = [
 const down = [
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "purple",
     icon: "/assets/angry-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "lightpurple",
     icon: "/assets/confounded-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "skyblue",
     icon: "/assets/confused-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#9FA1A1",
     icon: "/assets/disappointed-but-relieved-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#faebecc",
     icon: "/assets/expressionless-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#83ABC1",
     icon: "/assets/loudly-crying-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
+    fill: "#lightpurple",
     icon: "/assets/tired-face.svg",
   },
   {
     title: "",
-    fill: "#ffaaaa",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    fill: "#C7B8B7",
+    icon: "/assets/face-with-look-of-triumph.svg",
   },
 ];
 
