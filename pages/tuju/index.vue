@@ -54,17 +54,17 @@ const up = [
 
 const up2 = [
   {
-    title: "Jaga sõpradega",
+    title: "",
     fill: "FEF08A",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "Mul on su üle hea meel!",
+    title: "",
     fill: "#FDBA74",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "Äge!",
+    title: "",
     fill: "#FDE047",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
