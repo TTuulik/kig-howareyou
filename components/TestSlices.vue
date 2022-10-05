@@ -51,8 +51,7 @@ const sectors = options.map((option, i) => {
       <path
         :d="sector.d"
         :fill="sector.fill"
-        :opacity="selection[sector.title] ? 0.9 : 0.5"
-        :class="[selection[sector.title] ? '' : '']"
+        :opacity="remap(selection[sector.title] || 0, 0, 10, 0.3, 1)"
         @click="$emit('select', sector)"
       />
       <!-- <text
@@ -86,6 +85,7 @@ const sectors = options.map((option, i) => {
         dominant-baseline="middle"
         text-anchor="middle"
         :transform="sector.transform"
+        opacity="0.5"
       >
         {{ sector.title }}
       </text>

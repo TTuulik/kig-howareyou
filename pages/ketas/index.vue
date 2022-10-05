@@ -121,13 +121,9 @@ const options3 = options
   .flat(Infinity);
 
 const selection = $ref({});
+const onSelect1 = (sector) =>
+  (selection[sector.title] = (selection[sector.title] || 0) + 1);
 
-const selected1 = $ref();
-const selected2 = $ref();
-const selected3 = $ref();
-const onSelect1 = (sector) => (selection[sector.title] = true);
-const onSelect2 = (sector) => (selected2 = sector);
-const onSelect3 = (sector) => (selected3 = sector);
 const rotation = $ref(0);
 </script>
 
