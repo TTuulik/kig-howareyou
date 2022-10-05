@@ -132,7 +132,7 @@ const down2 = [
   {
     title: "",
     fill: "#BBF7D0",
-    icon: "/assets/brains.svg",
+    icon: "/assets/brain.svg",
   },
   {
     title: "",
