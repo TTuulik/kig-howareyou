@@ -8,13 +8,13 @@
             <h1 style="color:#fff; font-size:26px; padding-bottom: 24px; text-align: center;">How to get over a<br>mental block</h1>
             <div style="border-bottom: 9px dotted #00000040; width: 90px;"></div>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 24px;">Go for a walk</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Listen to music</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Meditate</p>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Reduce stress</p>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Get an outside perspective</p>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Give yourself a break</p>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Calm your environment</p>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Sleep</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Listen to music &#8594</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Meditate &#8594</p>
         </div>
         <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
             <img src="/assets/css/back.png" alt="back" class="w-8">

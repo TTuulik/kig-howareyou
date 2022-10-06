@@ -16,7 +16,6 @@ import feelingsVue from './feelings.vue';
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Eat several small meals<br>instead of large, heavy ones</p>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Make an effort to move more </p>
             <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Prioritize your sleep</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Drink more water</p>
         </div>
         <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
             <img src="/assets/css/back.png" alt="back" class="w-8">
