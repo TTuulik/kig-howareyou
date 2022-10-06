@@ -5,7 +5,7 @@
         <div>
             <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" />
             <div style="display:flex; justify-content:center; align-items:center; min-height: 812px; height: 100%;">
-                <div style="height:640px; width: 642px; background:#424F3DB2; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; padding: 0 10px 0 10px;">
+                <div style="height:640px; width: 642px; background:#424F3DB2; display: flex; justify-content: flex-start; align-items: center; flex-direction: column; text-align: center; padding: 20px 10px 0 10px;">
                     <h1 style="color:#fff; font-size:26px; padding-bottom: 24px;">Things to do when<br>you're sad</h1>
                     <div style="border-bottom: 9px dotted #00000040; width: 90px;"></div>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 25px;">Cry</p>
