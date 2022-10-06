@@ -129,6 +129,10 @@ const rotation = $ref(0);
 
 <template>
   <div class="flex items-center justify-center h-full">
+    <!-- <div class="fixed top-32 left-12 text-6xl font-bold opacity-80">
+      Feelings are normal. They need to be illuminated. Here is how you can do
+      it. Every day, mark an emotion. Or two. Or three.
+    </div> -->
     <div class="p-8">
       <TestWheel
         :size="800"
