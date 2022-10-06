@@ -52,7 +52,7 @@ const up = [
   },
 ];
 
-const Abiks = [
+const up2 = [
   {
     title: "Jaga sõpradega!",
     fill: "#FEF08A",
@@ -192,7 +192,7 @@ const down3 = [
           :padding="2"
         />
       </TestWheel>
-      <div>Abiks</div>
+      <div>Up2</div>
       <TestWheel>
         <TestSlices
           :options="up2"
@@ -212,7 +212,7 @@ const down3 = [
           :padding="2"
         />
       </TestWheel>
-      <div>Down2</div>
+      <div>Abiks</div>
       <TestWheel>
         <TestSlices
           :options="down2"
