@@ -8,13 +8,13 @@ defineEmits(["select"]);
   <div class="grid grid-cols-2 gap-4 p-8">
     <div
       v-for="(option, i) in options"
-      class="aspect-square bg-red-500 grid place-items-center text-center text-4xl p-6"
+      class="aspect-square bg-red-500 grid place-items-center text-center text-lg p-6"
       :class="[
         [
-          'rounded-tl-[150px]',
-          'rounded-tr-[150px]',
-          'rounded-bl-[150px]',
-          'rounded-br-[150px]',
+          'rounded-tl-[50px]',
+          'rounded-tr-[50px]',
+          'rounded-bl-[50px]',
+          'rounded-br-[50px]',
         ][i % 4],
       ]"
       :style="{ background: option.fill }"
