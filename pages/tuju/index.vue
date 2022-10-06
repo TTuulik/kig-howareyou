@@ -283,7 +283,7 @@ const showMessage = $ref(true);
           : 'pointer-events-none opacity-0 -translate-y-8',
       ]"
     >
-      Tuju. Ja midagi veel.
+      TUJU. Kuidas sul läheb?
     </div>
   </div>
 </template>
