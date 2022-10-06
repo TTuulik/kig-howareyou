@@ -92,13 +92,8 @@ const down = [
   {
     goto: "down3",
     title: "",
-<<<<<<< HEAD
-    fill: "#BEA1EE",
-    icon: "/assets/angry-face.svg",
-=======
     fill: "purple",
     icon: "/angry-face.svg",
->>>>>>> bfe27a3bf58fe30006b2163781265ea08ef56a0e
   },
   {
     goto: "down3",
@@ -115,13 +110,8 @@ const down = [
   {
     goto: "down3",
     title: "",
-<<<<<<< HEAD
-    fill: "#BEA1EE",
-    icon: "/assets/disappointed-but-relieved-face.svg",
-=======
     fill: "purple",
     icon: "/disappointed-but-relieved-face.svg",
->>>>>>> bfe27a3bf58fe30006b2163781265ea08ef56a0e
   },
   {
     goto: "down3",
@@ -132,13 +122,8 @@ const down = [
   {
     goto: "down3",
     title: "",
-<<<<<<< HEAD
-    fill: "#BEA1EE",
-    icon: "/assets/loudly-crying-face.svg",
-=======
     fill: "purple",
     icon: "/loudly-crying-face.svg",
->>>>>>> bfe27a3bf58fe30006b2163781265ea08ef56a0e
   },
   {
     goto: "down3",
