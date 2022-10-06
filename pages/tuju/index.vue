@@ -192,7 +192,7 @@ const down3 = [
 const down4 = [
   {
     goto: "start",
-    title: "Räägi oma taimedega.",
+    title: "Räägi oma taimedega",
     fill: "#DFF996",
   },
   {
@@ -243,16 +243,7 @@ const onSelect = (selection) => {
           @select="onSelect"
         />
       </TestWheel>
-      <TestWheel v-if="page == 'up2'">
-        <TestSlices
-          :options="up2"
-          :inner="4"
-          :outer="150"
-          :corner="5"
-          :padding="2"
-          @select="onSelect"
-        />
-      </TestWheel>
+      <CircleMenu v-if="page == 'up2'" :options="up2" @select="onSelect" />
       <TestWheel v-if="page == 'down'">
         <TestSlices
           :options="down"
@@ -274,27 +265,9 @@ const onSelect = (selection) => {
         />
       </TestWheel>
 
-      <TestWheel v-if="page == 'down3'">
-        <TestSlices
-          :options="down3"
-          :inner="4"
-          :outer="150"
-          :corner="5"
-          :padding="2"
-          @select="onSelect"
-        />
-      </TestWheel>
+      <CircleMenu v-if="page == 'down3'" :options="down3" @select="onSelect" />
 
-      <TestWheel v-if="page == 'down4'">
-        <TestSlices
-          :options="down4"
-          :inner="4"
-          :outer="150"
-          :corner="5"
-          :padding="2"
-          @select="onSelect"
-        />
-      </TestWheel>
+      <CircleMenu v-if="page == 'down4'" :options="down3" @select="onSelect" />
     </div>
   </div>
 </template>
