@@ -167,6 +167,31 @@ const down3 = [
 
 ];
 
+const down4 = [
+  {
+    title: "",
+    fill: "#DFF996",
+    icon: "/assets/leaf-outline.svg",
+  },
+  {
+    title: "",
+    fill: "#FEF08A",
+    icon: "/assets/artist-palette.svg",
+  },
+  {
+    title: "",
+    fill: "#BBF7D0",
+    icon: "/assets/brain.svg",
+  },
+  {
+    title: "",
+    fill: "#F5E3A0",
+    icon: "/assets/body-outline.svg",
+  },
+
+  
+];
+
 </script>
 
 <template>
@@ -233,6 +258,18 @@ const down3 = [
           :padding="2"
         />
       </TestWheel>
+
+      <div>Paus</div>
+      <TestWheel>
+        <TestSlices
+          :options="down2"
+          :inner="4"
+          :outer="150"
+          :corner="5"
+          :padding="2"
+        />
+      </TestWheel>
+
     </div>
   </div>
 </template>
