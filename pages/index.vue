@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-4 [&>*]:text-4xl [&>*]:font-bold [&>*]:block [&>*]:opacity-80 [&>*]:flex [&>*]:justify-between [&>*]:mb-2"
+    class="px-5 py-4 [&>*]:text-4xl [&>*]:font-bold [&>*]:block [&>*]:opacity-80 [&>*]:flex [&>*]:justify-between [&>*]:mb-2"
   >
     <NuxtLink to="/emotionally"
       ><div>Emotionally</div>
