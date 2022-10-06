@@ -121,19 +121,26 @@ const options3 = options
   .flat(Infinity);
 
 const selection = $ref({});
+const onSelect1 = (sector) =>
+  (selection[sector.title] = (selection[sector.title] || 0) + 1);
 
-const selected1 = $ref();
-const selected2 = $ref();
-const selected3 = $ref();
-const onSelect1 = (sector) => (selection[sector.title] = true);
-const onSelect2 = (sector) => (selected2 = sector);
-const onSelect3 = (sector) => (selected3 = sector);
+const rotation = $ref(0);
 </script>
 
 <template>
   <div class="flex items-center justify-center h-full">
+    <!-- <div class="fixed top-32 left-12 text-6xl font-bold opacity-80">
+      Feelings are normal. They need to be illuminated. Here is how you can do
+      it. Every day, mark an emotion. Or two. Or three.
+    </div> -->
     <div class="p-8">
-      <TestWheel :size="800">
+      <TestWheel
+        :size="800"
+        :style="{
+          transform:
+            'translate(-50px,220px) rotate(' + rotation + 'deg) scale(1.3)',
+        }"
+      >
         <TestSlices
           @select="onSelect1"
           :selection="selection"
@@ -156,6 +163,9 @@ const onSelect3 = (sector) => (selected3 = sector);
           :outer="350"
         />
       </TestWheel>
+    </div>
+    <div class="fixed top-8 left-8">
+      <input type="range" v-model.number="rotation" class="w-64" max="360" />
     </div>
   </div>
 </template>
