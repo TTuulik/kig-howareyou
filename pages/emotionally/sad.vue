@@ -20,7 +20,7 @@
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Explore the magical outdoors</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Write about your feelings</p>
             </div>
-            <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 110px;">
+            <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
                 <img src="/assets/css/back.png" alt="back" class="w-8">
             </nuxt-link>
         </div>

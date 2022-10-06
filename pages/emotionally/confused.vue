@@ -7,16 +7,16 @@
         <div style="height:640px; width: 642px; background:#424F3DB2; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; padding: 0 10px 0 10px;">
             <h1 style="color:#fff; font-size:26px; padding-bottom: 24px; text-align: center;">What to do when you're confused</h1>
             <div style="border-bottom: 9px dotted #00000040; width: 90px;"></div>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 28px;">Try not to panic and relax</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 19px;">Take a deep breath</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 19px;">Talk or write about your thoughts</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 19px;">5-4-3-2-1 Grounding Exercise</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 19px;">Engage in<br>compassionate self talk</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 19px;">Focus on present</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 19px;">Distract yourself temporarily</p>
-            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 19px;">Try muscle relaxation</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 24px;">Try not to panic and relax</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Take a deep breath</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Talk or write about your thoughts</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">5-4-3-2-1 Grounding Exercise</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Engage in<br>compassionate self talk</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Focus on present</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Distract yourself temporarily</p>
+            <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Try muscle relaxation</p>
         </div>
-        <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 110px;">
+        <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
             <img src="/assets/css/back.png" alt="back" class="w-8">
         </nuxt-link>
     </div>
