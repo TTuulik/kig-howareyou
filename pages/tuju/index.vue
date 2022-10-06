@@ -83,7 +83,7 @@ const down = [
   },
   {
     title: "",
-    fill: "lightpurple",
+    fill: "#C7B8B7",
     icon: "/assets/confounded-face.svg",
   },
   {
@@ -93,27 +93,27 @@ const down = [
   },
   {
     title: "",
-    fill: "#9FA1A1",
+    fill: "purple",
     icon: "/assets/disappointed-but-relieved-face.svg",
   },
   {
     title: "",
-    fill: "#faebecc",
+    fill: "#C7B8B7",
     icon: "/assets/expressionless-face.svg",
   },
   {
     title: "",
-    fill: "#83ABC1",
+    fill: "purple",
     icon: "/assets/loudly-crying-face.svg",
   },
   {
     title: "",
-    fill: "#lightpurple",
+    fill: "#9FA1A1",
     icon: "/assets/tired-face.svg",
   },
   {
     title: "",
-    fill: "#C7B8B7",
+    fill: "skyblue",
     icon: "/assets/face-with-look-of-triumph.svg",
   },
 ];
@@ -145,23 +145,23 @@ const down2 = [
 
 const down3 = [
 {
-    title: "MURELIK",
-    fill: "#DFF996",
+    title: "MURE",
+    fill: "skyblue",
     
   },
   {
     title: "SEGADUS",
-    fill: "#FEF08A",
+    fill: "#E5E7EB",
     
   },
   {
     title: "ALANDUS",
-    fill: "#BBF7D0",
+    fill: "#CBD5E1",
     
   },
   {
     title: "KAHETSUS",
-    fill: "#F5E3A0",
+    fill: "#E5E7EB",
   
   },
 
@@ -169,24 +169,20 @@ const down3 = [
 
 const down4 = [
   {
-    title: "",
+    title: "Räägi oma taimedega.",
     fill: "#DFF996",
-    icon: "Räägi oma taimedega.",
   },
   {
     title: "Mine õue!",
     fill: "#FEF08A",
-    icon: "",
   },
   {
     title: "Vaata 3 min aknast välja",
     fill: "#BBF7D0",
-    icon: "",
   },
   {
     title: "Mine jaluta 30. min",
     fill: "#F5E3A0",
-    icon: "",
   },
 
   
@@ -198,10 +194,11 @@ const down4 = [
   <div class="">
     <div>
       <div>Start</div>
+      <button>⇽</button>
       <TestWheel>
         <TestSlices
           :options="start"
-          :inner="4"
+          :inner="2"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -262,7 +259,7 @@ const down4 = [
       <div>Paus</div>
       <TestWheel>
         <TestSlices
-          :options="down2"
+          :options="down4"
           :inner="4"
           :outer="150"
           :corner="5"
