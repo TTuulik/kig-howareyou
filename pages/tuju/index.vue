@@ -198,6 +198,7 @@ const down4 = [
   <div class="">
     <div>
       <div>Start</div>
+      <button>⇽</button>
       <TestWheel>
         <TestSlices
           :options="start"
