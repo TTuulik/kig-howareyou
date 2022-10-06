@@ -125,6 +125,8 @@ const onSelect1 = (sector) =>
   (selection[sector.title] = (selection[sector.title] || 0) + 1);
 
 const rotation = $ref(0);
+
+const showMessage = $ref(true);
 </script>
 
 <template>
@@ -165,6 +167,25 @@ const rotation = $ref(0);
     </div>
     <div class="flex justify-center pb-8">
       <Slider type="range" v-model="rotation" max="360" />
+    </div>
+    <button
+      class="fixed top-8 right-8 text-4xl font-bold duration-1000 transition"
+      :class="[showMessage ? 'opacity-[0.01] translate-y-4' : 'opacity-30']"
+      @click="showMessage = !showMessage"
+    >
+      ◯
+    </button>
+    <div
+      @click="showMessage = false"
+      class="duration-1000 transition fixed top-8 left-8 right-8 md:w-1/3 text-5xl font-bold opacity-70"
+      :class="[
+        showMessage
+          ? 'opacity-80'
+          : 'pointer-events-none opacity-0 translate-y-8',
+      ]"
+    >
+      Su tunded on sinu omad ja kõik on väärt mäletamist. Märka ja märgi kuidas
+      sa ennast tunned.
     </div>
   </div>
 </template>
