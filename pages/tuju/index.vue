@@ -192,7 +192,7 @@ const down3 = [
           :padding="2"
         />
       </TestWheel>
-      <div>Up2</div>
+      <div>Abiks</div>
       <TestWheel>
         <TestSlices
           :options="up2"
