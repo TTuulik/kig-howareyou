@@ -11,7 +11,7 @@
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Eat healthy</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Focus on your breathing</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Use nature as your therapist</p>
-                    <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Shift your focus to the positive emotions</p>
+                    <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Shift your focus to the<br>positive emotions</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Get support</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Face your fear if you can</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Write about your feelings</p>
