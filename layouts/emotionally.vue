@@ -1,7 +1,7 @@
 <template>
   <div class="emotionallyFont">
     <slot></slot>
-    <Menu />
+    <!-- <Menu /> -->
   </div>
 </template>
 
