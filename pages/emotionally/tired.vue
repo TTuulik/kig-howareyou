@@ -1,6 +1,4 @@
 <script setup>
-import feelingsVue from './feelings.vue';
-
     definePageMeta({ layout: "emotionally" });
 </script>
 <template>

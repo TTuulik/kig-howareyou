@@ -1,8 +1,6 @@
 <script setup>
-    import feelingsVue from './feelings.vue';
-    
-        definePageMeta({ layout: "emotionally" });
-    </script>
+    definePageMeta({ layout: "emotionally" });
+</script>
     <template>
         <div>
             <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" />
@@ -18,8 +16,8 @@
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Get support</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Face your fear if you can</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Write about your feelings</p>
-                    <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">5-4-3-2-1 Grounding Exercise &#8594</p>
-                    <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Meditate &#8594</p>
+                    <nuxt-link to="/emotionally/exercise"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">5-4-3-2-1 Grounding Exercise &#8594</p></nuxt-link>
+                    <nuxt-link to="/emotionally/meditate"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Meditate &#8594</p></nuxt-link>
                 </div>
                 <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
                     <img src="/assets/css/back.png" alt="back" class="w-8">
