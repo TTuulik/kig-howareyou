@@ -194,7 +194,7 @@ const down4 = [
   <div class="">
     <div>
       <div>Start</div>
-      <button>⇽</button>
+      <button class="startbtn"><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="start"
