@@ -3,8 +3,7 @@
 </script>
 <template>
     <div>
-        <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" style="width:100%;"/>
-        <div style="display:flex; justify-content:center; align-items:center; height: 100vh;">
+        <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" style="width:100%;"/>        <div style="display:flex; justify-content:center; align-items:center; height: 100vh;">
             <div style="display: flex; justify-content: flex-start; align-items: center; flex-direction: column; height:640px; width: 100%; background:#424F3DB2; text-align: center; padding: 20px 10px 0 10px;">
                 <h1 style="color:#fff; font-size:26px; padding-bottom: 24px;">Tips for when you're tired</h1>
                 <div style="border-bottom: 9px dotted #00000040; width: 90px;"></div>
