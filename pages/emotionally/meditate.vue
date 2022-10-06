@@ -17,7 +17,7 @@
                     <p style="color:#fff; text-align: center; font-size: 13px;">Don't judge yourself or obsess over the content<br>of the thoughts you find yourself lost in.</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Close with kindness</p>
                     <p style="color:#fff; text-align: center; font-size: 13px;">When you're ready, gently lift your gaze. Take a moment and notice any sounds in the environment. Notice how your body feels right now. Notice your thoughts and emotions.</p>
-                    <nuxt-link to="/emotionally/exercise"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Music &#8594</p></nuxt-link>
+                    <nuxt-link to="/emotionally/music"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Music &#8594</p></nuxt-link>
                 </div>
                 <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
                     <img src="/assets/css/back.png" alt="back" class="w-8">
