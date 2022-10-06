@@ -92,7 +92,7 @@ const down = [
   {
     goto: "down3",
     title: "",
-    fill: "purple",
+    fill: "#BEA1EE",
     icon: "/angry-face.svg",
   },
   {
@@ -110,7 +110,7 @@ const down = [
   {
     goto: "down3",
     title: "",
-    fill: "purple",
+    fill: "#BEA1EE",
     icon: "/disappointed-but-relieved-face.svg",
   },
   {
@@ -122,7 +122,7 @@ const down = [
   {
     goto: "down3",
     title: "",
-    fill: "purple",
+    fill: "#BEA1EE",
     icon: "/loudly-crying-face.svg",
   },
   {
