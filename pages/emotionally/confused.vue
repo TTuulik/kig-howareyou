@@ -12,7 +12,7 @@
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 24px;">Try not to panic and relax</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Take a deep breath</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Talk or write about your thoughts</p>
-                <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Engage in<br>compassionate self talk</p>
+                <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Engage in compassionate self talk</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Focus on present</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Distract yourself temporarily</p>
                 <nuxt-link to="/emotionally/exercise"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Try musical relaxation &#8594</p></nuxt-link>

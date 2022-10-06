@@ -13,7 +13,7 @@
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Talk to someone</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Read a book</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Write about your feelings</p>
-                    <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Ask yourself<br>if your anger is reasonable</p>
+                    <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Ask yourself if your anger is reasonable</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Identify other emotions that your anger may be masking</p>
                     <nuxt-link to="/emotionally/exercise"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">5-4-3-2-1 Grounding Exercise &#8594</p></nuxt-link>
                     <nuxt-link to="/emotionally/music"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Listen to music &#8594</p></nuxt-link>
