@@ -197,6 +197,17 @@ const down2 = [
           :padding="2"
         />
       </TestWheel>
+
+      <div>Down3</div>
+      <TestWheel>
+        <TestSlices
+          :options="down3"
+          :inner="4"
+          :outer="150"
+          :corner="5"
+          :padding="2"
+        />
+      </TestWheel>
     </div>
   </div>
 </template>
