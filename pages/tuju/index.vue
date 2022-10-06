@@ -147,22 +147,22 @@ const down3 = [
 {
     title: "",
     fill: "#DFF996",
-    icon: "/assets/leaf-outline.svg",
+    text: "Mine õue! ",
   },
   {
     title: "",
     fill: "#FEF08A",
-    icon: "/assets/artist-palette.svg",
+    text: "Mine õue! ",
   },
   {
     title: "",
     fill: "#BBF7D0",
-    icon: "/assets/brain.svg",
+    text: "Mine õue! ",
   },
   {
     title: "",
     fill: "#F5E3A0",
-    icon: "/assets/body-outline.svg",
+    text: "Mine õue! ",
   },
 
 ];
