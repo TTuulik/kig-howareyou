@@ -165,7 +165,7 @@ const rotation = $ref(0);
       </TestWheel>
     </div>
     <div class="fixed top-8 left-8">
-      <input type="range" v-model.number="rotation" class="w-64" max="360" />
+      <Slider v-model="rotation" class="w-64" max="360" />
     </div>
   </div>
 </template>
