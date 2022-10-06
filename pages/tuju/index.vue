@@ -151,7 +151,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="start"
-          :inner="0"
+          :inner="2"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -161,7 +161,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="up"
-          :inner="50"
+          :inner="2"
           :outer="150"
           :corner="5"
           :padding="2"
