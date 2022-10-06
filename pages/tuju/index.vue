@@ -6,13 +6,13 @@ const start = [
     goto: "down",
     title: "",
     fill: "lightblue",
-    largeicon: "/assets/confused-face.svg",
+    largeicon: "/confused-face.svg",
   },
   {
     goto: "up",
     title: "",
     fill: "yellow",
-    largeicon: "/assets/smiling-face-with-smiling-eyes.svg",
+    largeicon: "/smiling-face-with-smiling-eyes.svg",
   },
 ];
 
@@ -21,43 +21,43 @@ const up = [
     goto: "up2",
     title: "",
     fill: "#FFCC80",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "/smiling-face-with-smiling-eyes.svg",
   },
   {
     goto: "up2",
     title: "",
     fill: "#FDBA74",
-    icon: "/assets/smiling-face-with-heart-shaped-eyes.svg",
+    icon: "/smiling-face-with-heart-shaped-eyes.svg",
   },
   {
     goto: "up2",
     title: "",
     fill: "#FDE68A",
-    icon: "/assets/smiling-face-with-halo.svg",
+    icon: "/smiling-face-with-halo.svg",
   },
   {
     goto: "up2",
     title: "",
     fill: "#FECDD3",
-    icon: "/assets/face-with-open-mouth.svg",
+    icon: "/face-with-open-mouth.svg",
   },
   {
     goto: "up2",
     title: "",
     fill: "#FFBB89",
-    icon: "/assets/face-with-stuck-out-tongue-and-tightly-closed-eyes.svg",
+    icon: "/face-with-stuck-out-tongue-and-tightly-closed-eyes.svg",
   },
   {
     goto: "up2",
     title: "",
     fill: "#FED7AA",
-    icon: "/assets/face-savouring-delicious-food.svg",
+    icon: "/face-savouring-delicious-food.svg",
   },
   {
     goto: "up2",
     title: "",
     fill: "#FECACA",
-    icon: "/assets/grinning-face.svg",
+    icon: "/grinning-face.svg",
   },
 ];
 
@@ -92,50 +92,65 @@ const down = [
   {
     goto: "down3",
     title: "",
+<<<<<<< HEAD
     fill: "#BEA1EE",
     icon: "/assets/angry-face.svg",
+=======
+    fill: "purple",
+    icon: "/angry-face.svg",
+>>>>>>> bfe27a3bf58fe30006b2163781265ea08ef56a0e
   },
   {
     goto: "down3",
     title: "",
     fill: "#C7B8B7",
-    icon: "/assets/confounded-face.svg",
+    icon: "/confounded-face.svg",
   },
   {
     goto: "down3",
     title: "",
     fill: "skyblue",
-    icon: "/assets/confused-face.svg",
+    icon: "/confused-face.svg",
   },
   {
     goto: "down3",
     title: "",
+<<<<<<< HEAD
     fill: "#BEA1EE",
     icon: "/assets/disappointed-but-relieved-face.svg",
+=======
+    fill: "purple",
+    icon: "/disappointed-but-relieved-face.svg",
+>>>>>>> bfe27a3bf58fe30006b2163781265ea08ef56a0e
   },
   {
     goto: "down3",
     title: "",
     fill: "#C7B8B7",
-    icon: "/assets/expressionless-face.svg",
+    icon: "/expressionless-face.svg",
   },
   {
     goto: "down3",
     title: "",
+<<<<<<< HEAD
     fill: "#BEA1EE",
     icon: "/assets/loudly-crying-face.svg",
+=======
+    fill: "purple",
+    icon: "/loudly-crying-face.svg",
+>>>>>>> bfe27a3bf58fe30006b2163781265ea08ef56a0e
   },
   {
     goto: "down3",
     title: "",
     fill: "#9FA1A1",
-    icon: "/assets/tired-face.svg",
+    icon: "/tired-face.svg",
   },
   {
     goto: "down3",
     title: "",
     fill: "skyblue",
-    icon: "/assets/face-with-look-of-triumph.svg",
+    icon: "/face-with-look-of-triumph.svg",
   },
 ];
 
@@ -144,25 +159,25 @@ const down2 = [
     goto: "down4",
     title: "",
     fill: "#DFF996",
-    largeicon: "/assets/leaf-outline.svg",
+    largeicon: "/leaf-outline.svg",
   },
   {
     goto: "down4",
     title: "",
     fill: "#FEF08A",
-    largeicon: "/assets/artist-palette.svg",
+    largeicon: "/artist-palette.svg",
   },
   {
     goto: "down4",
     title: "",
     fill: "#BBF7D0",
-    largeicon: "/assets/brain.svg",
+    largeicon: "/brain.svg",
   },
   {
     goto: "down4",
     title: "",
     fill: "#F5E3A0",
-    largeicon: "/assets/body-outline.svg",
+    largeicon: "/body-outline.svg",
   },
 ];
 
@@ -222,7 +237,7 @@ const onSelect = (selection) => {
   <div class="">
     <div>
       <div>{{ page }}</div>
-      <!-- <button class="startbtn"><img src="/assets/back-btn.svg" /></button> -->
+      <!-- <button class="startbtn"><img src="/back-btn.svg" /></button> -->
       <TestWheel v-if="page == 'start'">
         <TestSlices
           :options="start"
