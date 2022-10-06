@@ -59,7 +59,7 @@ const up2 = [
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
-    title: "",
+    title: "Mul on su üle hea meel!",
     fill: "#FDBA74",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
