@@ -37,12 +37,14 @@
 </script>
 <template>
   <div>
-    <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10"/>
+    <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" style="width:100%;"/>
     <div style="padding-left: 50px; padding-top: 50px;">
       <CircleWheel :options="options" @select="onSelect" />
     </div>
-    <h1 style="color: #fff; padding-top: 330px; padding-left: 20px; font-size: 40px;">
-      Feelings
-    </h1>
+    <div style="display:flex; align-items:center">
+      <h1 style="color: #fff; padding-top: 330px; padding-left: 20px; font-size: 40px;">
+        Feelings
+      </h1>
+    </div>
   </div>
 </template>

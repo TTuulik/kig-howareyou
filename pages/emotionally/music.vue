@@ -3,7 +3,7 @@
 </script>
 <template>
     <div>
-        <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" />
+        <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" style="width:100%;"/>
         <div style="display:flex; justify-content:center; align-items:center; min-height: 812px; height: 100%;">
             <div style="height:640px; width: 642px; background:#424F3DB2; display: flex; justify-content: flex-start; align-items: center; flex-direction: column; text-align: center; padding: 20px 10px 0 10px;">
                 <h1 style="color:#fff; font-size:26px; padding-bottom: 24px; text-align: center;">Music</h1>
