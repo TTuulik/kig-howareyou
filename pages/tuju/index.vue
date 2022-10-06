@@ -118,7 +118,7 @@ const down = [
   },
 ];
 
-const down2 = [
+const Abiks = [
   {
     title: "",
     fill: "#DFF996",
