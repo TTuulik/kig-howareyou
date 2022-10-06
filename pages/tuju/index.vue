@@ -167,6 +167,31 @@ const down3 = [
 
 ];
 
+const down4 = [
+  {
+    title: "",
+    fill: "#DFF996",
+    icon: "Räägi oma taimedega.",
+  },
+  {
+    title: "Mine õue!",
+    fill: "#FEF08A",
+    icon: "",
+  },
+  {
+    title: "Vaata 3 min aknast välja"",
+    fill: "#BBF7D0",
+    icon: "",
+  },
+  {
+    title: "Mine jaluta 30. min",
+    fill: "#F5E3A0",
+    icon: "",
+  },
+
+  
+];
+
 </script>
 
 <template>
@@ -233,6 +258,18 @@ const down3 = [
           :padding="2"
         />
       </TestWheel>
+
+      <div>Paus</div>
+      <TestWheel>
+        <TestSlices
+          :options="down2"
+          :inner="4"
+          :outer="150"
+          :corner="5"
+          :padding="2"
+        />
+      </TestWheel>
+
     </div>
   </div>
 </template>
