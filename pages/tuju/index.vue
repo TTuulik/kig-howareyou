@@ -145,24 +145,24 @@ const down2 = [
 
 const down3 = [
 {
-    title: "",
+    title: "MURELIK",
     fill: "#DFF996",
-    text: "Mine õue! ",
+    
   },
   {
-    title: "",
+    title: "SEGADUS",
     fill: "#FEF08A",
-    text: "Mine õue! ",
+    
   },
   {
-    title: "",
+    title: "ALANDUS",
     fill: "#BBF7D0",
-    text: "Mine õue! ",
+    
   },
   {
-    title: "",
+    title: "KAHETSUS",
     fill: "#F5E3A0",
-    text: "Mine õue! ",
+  
   },
 
 ];
