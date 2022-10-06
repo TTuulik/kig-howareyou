@@ -11,12 +11,12 @@
                 <div style="border-bottom: 9px dotted #00000040; width: 90px;"></div>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 24px;">Go for a walk</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Take deep breaths</p>
-                <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Listen to music</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Talk to someone</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Read a book</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Write about your feelings</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Ask yourself<br>if your anger is reasonable</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Identify other emotions that your anger may be masking</p>
+                <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Listen to music &#8594</p>
             </div>
             <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
                 <img src="/assets/css/back.png" alt="back" class="w-8">
