@@ -258,7 +258,7 @@ const down4 = [
       <div>Paus</div>
       <TestWheel>
         <TestSlices
-          :options="down2"
+          :options="down4"
           :inner="4"
           :outer="150"
           :corner="5"
