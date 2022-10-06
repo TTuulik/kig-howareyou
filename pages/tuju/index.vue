@@ -139,6 +139,8 @@ const down2 = [
     fill: "#F5E3A0",
     icon: "/assets/body-outline.svg",
   },
+
+  
 ];
 </script>
 
