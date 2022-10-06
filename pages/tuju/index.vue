@@ -151,7 +151,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="start"
-          :inner="2"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -161,7 +161,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="up"
-          :inner="2"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -171,7 +171,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="up2"
-          :inner="50"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -181,7 +181,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="down"
-          :inner="50"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -191,7 +191,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="down2"
-          :inner="50"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
