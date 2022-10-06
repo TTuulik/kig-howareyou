@@ -52,7 +52,7 @@ const up = [
   },
 ];
 
-const Abiks = [
+const up2 = [
   {
     title: "Jaga sõpradega!",
     fill: "#FEF08A",
