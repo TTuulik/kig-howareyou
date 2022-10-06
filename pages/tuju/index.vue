@@ -146,22 +146,22 @@ const down2 = [
 const down3 = [
 {
     title: "MURELIK",
-    fill: "#DFF996",
+    fill: "skyblue",
     
   },
   {
     title: "SEGADUS",
-    fill: "#FEF08A",
+    fill: "#E5E7EB",
     
   },
   {
     title: "ALANDUS",
-    fill: "#BBF7D0",
+    fill: "#CBD5E1",
     
   },
   {
     title: "KAHETSUS",
-    fill: "#F5E3A0",
+    fill: "#E5E7EB",
   
   },
 
@@ -169,9 +169,9 @@ const down3 = [
 
 const down4 = [
   {
-    title: "",
+    title: "Räägi oma taimedega.",
     fill: "#DFF996",
-    icon: "Räägi oma taimedega.",
+    icon: "",
   },
   {
     title: "Mine õue!",
@@ -201,7 +201,7 @@ const down4 = [
       <TestWheel>
         <TestSlices
           :options="start"
-          :inner="4"
+          :inner="2"
           :outer="150"
           :corner="5"
           :padding="2"
