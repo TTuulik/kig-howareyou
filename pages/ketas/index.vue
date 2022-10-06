@@ -137,7 +137,7 @@ const showMessage = $ref(true);
           class="w-[180vw] md:w-[60vw] -ml-[90vw] md:ml-0"
           :size="500"
           :style="{
-            transform: 'rotate(' + rotation + 'deg)',
+            transform: 'rotate(' + (360 - rotation) + 'deg)',
           }"
         >
           <TestSlices
@@ -175,7 +175,7 @@ const showMessage = $ref(true);
       </button>
       <div
         @click="showMessage = false"
-        class="duration-1000 transition fixed top-8 left-8 right-8 md:w-1/3 text-5xl font-bold opacity-70"
+        class="duration-1000 transition fixed top-8 left-8 right-8 md:w-1/3 text-4xl font-bold opacity-70"
         :class="[
           showMessage
             ? 'opacity-80'
