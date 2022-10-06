@@ -11,7 +11,7 @@
                 <a href="https://open.spotify.com/artist/3jiEUUVkagxAsSpQaJWi3d"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 24px;">Meditate and chill &#8594</p></a>
                 <a href="https://open.spotify.com/album/5nncRcV2N2W8KdoeLzTjJq"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Brain stimulating &#8594</p></a>
                 <a href="https://open.spotify.com/album/2Kq1yt9vgjnYAA4t9hGRDw"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Hypnosis and relaxation &#8594</p></a>
-                <a href="https://open.spotify.com/search/Plant%20wave"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Plant wave &#8594</p></a>
+                <a href="https://open.spotify.com/artist/7kMy7EALl5gVfGs1TgwuVI"><p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Plant wave &#8594</p></a>
             </div>
             <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
                 <img src="/assets/css/back.png" alt="back" class="w-8">
