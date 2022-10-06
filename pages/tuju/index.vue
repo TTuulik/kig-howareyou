@@ -142,6 +142,31 @@ const down2 = [
 
   
 ];
+
+const down3 = [
+{
+    title: "",
+    fill: "#DFF996",
+    icon: "/assets/leaf-outline.svg",
+  },
+  {
+    title: "",
+    fill: "#FEF08A",
+    icon: "/assets/artist-palette.svg",
+  },
+  {
+    title: "",
+    fill: "#BBF7D0",
+    icon: "/assets/brain.svg",
+  },
+  {
+    title: "",
+    fill: "#F5E3A0",
+    icon: "/assets/body-outline.svg",
+  },
+
+];
+
 </script>
 
 <template>
