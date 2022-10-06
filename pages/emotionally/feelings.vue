@@ -37,14 +37,13 @@
 </script>
 <template>
   <div>
-    <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10" style="width:100%;"/>
-    <div style="padding-left: 50px; padding-top: 50px;">
-      <CircleWheel :options="options" @select="onSelect" />
+    <img src="/assets/css/Background.png" class="h-screen object-fill fixed -z-10" style="width:100%;"/>
+    <div style="display:flex; align-items: center; border: 4px solid red; height: 100vh; padding-left: 40px;">
+      <CircleWheel :options="options" @select="onSelect" style="margin-top: -90vh" />
+      <h1 style=" color: #fff; font-size: 40px;">Feelings</h1>
     </div>
-    <div style="display:flex; align-items:center">
-      <h1 style="color: #fff; padding-top: 330px; padding-left: 20px; font-size: 40px;">
-        Feelings
-      </h1>
-    </div>
+    <nuxt-link to="/emotionally" style="position: absolute; left: 20px; bottom: 20px;">
+      <img src="/assets/css/back.png" alt="back" class="w-8">
+    </nuxt-link>
   </div>
 </template>
