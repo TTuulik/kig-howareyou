@@ -179,7 +179,7 @@ const down4 = [
     icon: "",
   },
   {
-    title: "Vaata 3 min aknast välja"",
+    title: "Vaata 3 min aknast välja",
     fill: "#BBF7D0",
     icon: "",
   },
