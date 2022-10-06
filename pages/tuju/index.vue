@@ -216,13 +216,12 @@ const page = $ref("start");
 const onSelect = (selection) => {
   page = selection.goto || "start";
 };
+const showMessage = $ref(true);
 </script>
 
 <template>
-  <div class="">
-    <div>
-      <div>{{ page }}</div>
-      <!-- <button class="startbtn"><img src="/back-btn.svg" /></button> -->
+  <div class="md:flex md:justify-center">
+    <div class="md:w-1/2">
       <TestWheel v-if="page == 'start'">
         <TestSlices
           :options="start"
@@ -266,8 +265,25 @@ const onSelect = (selection) => {
       </TestWheel>
 
       <CircleMenu v-if="page == 'down3'" :options="down3" @select="onSelect" />
-
       <CircleMenu v-if="page == 'down4'" :options="down4" @select="onSelect" />
+    </div>
+    <!-- <button
+      class="fixed bottom-8 right-8 text-4xl font-bold duration-1000 transition"
+      :class="[showMessage ? 'opacity-[0.01] -translate-y-4' : 'opacity-30']"
+      @click="showMessage = !showMessage"
+    >
+      ◯
+    </button> -->
+    <div
+      @click="showMessage = false"
+      class="duration-1000 transition fixed bottom-8 left-8 right-8 md:w-3/4 text-5xl font-bold opacity-70"
+      :class="[
+        showMessage
+          ? 'opacity-80'
+          : 'pointer-events-none opacity-0 -translate-y-8',
+      ]"
+    >
+      Tuju. Ja midagi veel.
     </div>
   </div>
 </template>

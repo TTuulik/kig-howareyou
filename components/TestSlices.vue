@@ -53,6 +53,7 @@ const sectors = options.map((option, i) => {
           sector.fill ? 1 : remap(selection[sector.title] || 0, 0, 10, 0.3, 1)
         "
         @click="$emit('select', sector)"
+        class="cursor-pointer hover:brightness-95"
       />
       <!-- <text
         style="pointer-events: none"
@@ -87,6 +88,7 @@ const sectors = options.map((option, i) => {
         :href="sector.largeicon"
         :transform-origin="sector.point.x + ' ' + sector.point.y"
         transform="scale(2) translate(-12,-12)"
+        class="pointer-events-none"
       />
       <text
         class="text-xs pointer-events-none select-none"

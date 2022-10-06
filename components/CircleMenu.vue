@@ -1,5 +1,4 @@
 <script setup>
-import { interpolateSinebow } from "d3";
 const { options } = defineProps(["options"]);
 defineEmits(["select"]);
 </script>
