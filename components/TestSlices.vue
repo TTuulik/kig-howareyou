@@ -1,6 +1,5 @@
 <script setup>
 import { interpolateSinebow } from "d3";
-console.log(interpolateSinebow(0.5));
 const {
   options,
   inner = 0,

@@ -171,22 +171,18 @@ const down4 = [
   {
     title: "Räägi oma taimedega.",
     fill: "#DFF996",
-    icon: "",
   },
   {
     title: "Mine õue!",
     fill: "#FEF08A",
-    icon: "",
   },
   {
     title: "Vaata 3 min aknast välja",
     fill: "#BBF7D0",
-    icon: "",
   },
   {
     title: "Mine jaluta 30. min",
     fill: "#F5E3A0",
-    icon: "",
   },
 
   
@@ -263,7 +259,7 @@ const down4 = [
       <div>Paus</div>
       <TestWheel>
         <TestSlices
-          :options="down2"
+          :options="down4"
           :inner="4"
           :outer="150"
           :corner="5"
