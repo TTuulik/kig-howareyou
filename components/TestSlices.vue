@@ -33,8 +33,7 @@ const sectors = options.map((option, i) => {
     padding
   );
   const point = polar(currentAngle + sector / 2, sectorMiddleRadius);
-  //const fill = option.fill || hsl(currentAngle, 100, 50);
-  const fill =
+  const color =
     option.fill || interpolateSinebow(remap(currentAngle, 0, 360, 0, 1));
   const flip = currentAngle >= 180 && currentAngle < 0;
   const transform = [
@@ -42,7 +41,7 @@ const sectors = options.map((option, i) => {
     translate(sectorMiddleRadius, 0),
     scale(flip ? -1 : 1, flip ? -1 : 1),
   ].join();
-  return { ...option, d, point, fill, transform, flip, currentAngle };
+  return { ...option, d, point, color, transform, flip, currentAngle };
 });
 </script>
 <template>
@@ -50,8 +49,10 @@ const sectors = options.map((option, i) => {
     <g v-for="(sector, i) in sectors">
       <path
         :d="sector.d"
-        :fill="sector.fill"
-        :opacity="remap(selection[sector.title] || 0, 0, 10, 0.3, 1)"
+        :fill="sector.color"
+        :opacity="
+          sector.fill ? 1 : remap(selection[sector.title] || 0, 0, 10, 0.3, 1)
+        "
         @click="$emit('select', sector)"
       />
       <!-- <text
@@ -81,7 +82,7 @@ const sectors = options.map((option, i) => {
         transform="scale(1) translate(-12,-12)"
       />
       <text
-        style="pointer-events: none"
+        class="text-xs pointer-events-none select-none"
         dominant-baseline="middle"
         text-anchor="middle"
         :transform="sector.transform"

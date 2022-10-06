@@ -83,7 +83,7 @@ const down = [
   },
   {
     title: "",
-    fill: "lightpurple",
+    fill: "#C7B8B7",
     icon: "/assets/confounded-face.svg",
   },
   {
@@ -93,27 +93,27 @@ const down = [
   },
   {
     title: "",
-    fill: "#9FA1A1",
+    fill: "purple",
     icon: "/assets/disappointed-but-relieved-face.svg",
   },
   {
     title: "",
-    fill: "#faebecc",
+    fill: "#C7B8B7",
     icon: "/assets/expressionless-face.svg",
   },
   {
     title: "",
-    fill: "#83ABC1",
+    fill: "purple",
     icon: "/assets/loudly-crying-face.svg",
   },
   {
     title: "",
-    fill: "#lightpurple",
+    fill: "#9FA1A1",
     icon: "/assets/tired-face.svg",
   },
   {
     title: "",
-    fill: "#C7B8B7",
+    fill: "skyblue",
     icon: "/assets/face-with-look-of-triumph.svg",
   },
 ];

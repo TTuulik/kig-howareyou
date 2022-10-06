@@ -125,20 +125,18 @@ const onSelect1 = (sector) =>
   (selection[sector.title] = (selection[sector.title] || 0) + 1);
 
 const rotation = $ref(0);
+
+const showMessage = $ref(true);
 </script>
 
 <template>
-  <div class="flex items-center justify-center h-full">
-    <!-- <div class="fixed top-32 left-12 text-6xl font-bold opacity-80">
-      Feelings are normal. They need to be illuminated. Here is how you can do
-      it. Every day, mark an emotion. Or two. Or three.
-    </div> -->
-    <div class="p-8">
+  <div class="grid grid-rows-[1fr_auto] h-screen">
+    <div class="flex items-center justify-center overflow-hidden">
       <TestWheel
-        :size="800"
+        class="w-[180vw] md:w-[60vw] -ml-[90vw] md:ml-0"
+        :size="500"
         :style="{
-          transform:
-            'translate(-50px,220px) rotate(' + rotation + 'deg) scale(1.3)',
+          transform: 'rotate(' + rotation + 'deg)',
         }"
       >
         <TestSlices
@@ -146,26 +144,57 @@ const rotation = $ref(0);
           :selection="selection"
           :options="options"
           :inner="0"
-          :outer="120"
+          :outer="80"
         />
         <TestSlices
           @select="onSelect1"
           :selection="selection"
           :options="options2"
-          :inner="120"
-          :outer="220"
+          :inner="80"
+          :outer="160"
         />
         <TestSlices
           @select="onSelect1"
           :selection="selection"
           :options="options3"
-          :inner="220"
-          :outer="350"
+          :inner="160"
+          :outer="240"
         />
+        <!-- <circle r="250" />
+        <rect x="-100" y="-100" width="200" height="200" fill="white" />
+        <rect x="-90" y="-90" width="20" height="20" /> -->
       </TestWheel>
     </div>
-    <div class="fixed top-8 left-8">
-      <input type="range" v-model.number="rotation" class="w-64" max="360" />
+    <div class="flex justify-center pb-8">
+      <Slider type="range" v-model="rotation" max="360" />
+    </div>
+    <button
+      class="fixed top-8 right-8 text-4xl font-bold duration-1000 transition"
+      :class="[showMessage ? 'opacity-[0.01] translate-y-4' : 'opacity-30']"
+      @click="showMessage = !showMessage"
+    >
+      ◯
+    </button>
+    <div
+      @click="showMessage = false"
+      class="duration-1000 transition fixed top-8 left-8 right-8 md:w-1/3 text-5xl font-bold opacity-70"
+      :class="[
+        showMessage
+          ? 'opacity-80'
+          : 'pointer-events-none opacity-0 translate-y-8',
+      ]"
+    >
+      Su tunded on sinu omad ja kõik on väärt mäletamist. Märka ja märgi kuidas
+      sa ennast tunned.
     </div>
   </div>
 </template>
+
+<style>
+.debug {
+  @apply border-2 border-blue-500;
+}
+.debug > * {
+  @apply border-2 border-red-500;
+}
+</style>
