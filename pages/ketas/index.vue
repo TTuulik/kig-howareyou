@@ -128,20 +128,31 @@ const rotation = $ref(0);
 </script>
 
 <template>
-  <div class="p-4">
-    <input class="block w-64" type="range" v-model="rotation" max="360" />{{
-      rotation
-    }}
-    <TestWheel
-      :size="500"
-      class="border-2 w-full"
-      :style="{
-        transform: 'rotate(' + rotation + 'deg)',
-      }"
-    >
-      <circle r="200" />
-      <rect x="-100" y="-100" width="200" height="200" fill="white" />
-      <rect x="-90" y="-90" width="20" height="20" />
-    </TestWheel>
+  <div class="grid grid-rows-[1fr_auto] debug h-screen">
+    <div class="flex items-center justify-center">
+      <TestWheel
+        class="w-[180vw] md:w-[60vw] -ml-[90vw] md:ml-0"
+        :size="500"
+        :style="{
+          transform: 'rotate(' + rotation + 'deg)',
+        }"
+      >
+        <circle r="250" />
+        <rect x="-100" y="-100" width="200" height="200" fill="white" />
+        <rect x="-90" y="-90" width="20" height="20" />
+      </TestWheel>
+    </div>
+    <div class="flex justify-center pb-8">
+      <input class="block w-64" type="range" v-model="rotation" max="360" />
+    </div>
   </div>
 </template>
+
+<style>
+.debug {
+  @apply border-2 border-blue-500;
+}
+.debug > * {
+  @apply border-2 border-red-500;
+}
+</style>
