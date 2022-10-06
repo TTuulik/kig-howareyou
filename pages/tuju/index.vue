@@ -171,22 +171,22 @@ const down4 = [
   {
     title: "",
     fill: "#DFF996",
-    icon: "/assets/leaf-outline.svg",
+    icon: "Räägi oma taimedega.",
   },
   {
-    title: "",
+    title: "Mine õue!",
     fill: "#FEF08A",
-    icon: "/assets/artist-palette.svg",
+    icon: "",
   },
   {
-    title: "",
+    title: "Vaata 3 min aknast välja"",
     fill: "#BBF7D0",
-    icon: "/assets/brain.svg",
+    icon: "",
   },
   {
-    title: "",
+    title: "Mine jaluta 30. min",
     fill: "#F5E3A0",
-    icon: "/assets/body-outline.svg",
+    icon: "",
   },
 
   
