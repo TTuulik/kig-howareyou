@@ -38,10 +38,10 @@
 <template>
   <div>
     <img src="/assets/css/Background.png" class="h-screen object-cover fixed -z-10"/>
-    <div style="padding-left: 50px; padding-top: 130px;">
+    <div style="padding-left: 50px; padding-top: 50px;">
       <CircleWheel :options="options" @select="onSelect" />
     </div>
-    <h1 style="color: #fff; padding-top: 245px; padding-left: 20px; font-size: 40px;">
+    <h1 style="color: #fff; padding-top: 330px; padding-left: 20px; font-size: 40px;">
       Feelings
     </h1>
   </div>
