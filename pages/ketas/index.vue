@@ -128,8 +128,8 @@ const rotation = $ref(0);
 </script>
 
 <template>
-  <div class="grid grid-rows-[1fr_auto] debug h-screen">
-    <div class="flex items-center justify-center">
+  <div class="grid grid-rows-[1fr_auto] h-screen">
+    <div class="flex items-center justify-center overflow-hidden">
       <TestWheel
         class="w-[180vw] md:w-[60vw] -ml-[90vw] md:ml-0"
         :size="500"
@@ -137,13 +137,34 @@ const rotation = $ref(0);
           transform: 'rotate(' + rotation + 'deg)',
         }"
       >
-        <circle r="250" />
+        <TestSlices
+          @select="onSelect1"
+          :selection="selection"
+          :options="options"
+          :inner="0"
+          :outer="80"
+        />
+        <TestSlices
+          @select="onSelect1"
+          :selection="selection"
+          :options="options2"
+          :inner="80"
+          :outer="160"
+        />
+        <TestSlices
+          @select="onSelect1"
+          :selection="selection"
+          :options="options3"
+          :inner="160"
+          :outer="240"
+        />
+        <!-- <circle r="250" />
         <rect x="-100" y="-100" width="200" height="200" fill="white" />
-        <rect x="-90" y="-90" width="20" height="20" />
+        <rect x="-90" y="-90" width="20" height="20" /> -->
       </TestWheel>
     </div>
     <div class="flex justify-center pb-8">
-      <input class="block w-64" type="range" v-model="rotation" max="360" />
+      <Slider type="range" v-model="rotation" max="360" />
     </div>
   </div>
 </template>

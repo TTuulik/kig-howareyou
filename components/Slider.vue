@@ -23,12 +23,6 @@ const inputValue = computed({
   <input
     type="range"
     v-model.number="inputValue"
-    class="slider my-3 block h-px cursor-pointer appearance-none bg-gray-500"
+    class="accent-gray-500 block h-px cursor-pointer appearance-auto bg-gray-500 w-3/4 md:w-64"
   />
 </template>
-
-<style scoped>
-.slider::-webkit-slider-thumb {
-  @apply h-4 w-4 appearance-none rounded-full bg-gray-300 transition active:bg-gray-400;
-}
-</style>

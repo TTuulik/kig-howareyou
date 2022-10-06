@@ -81,7 +81,7 @@ const sectors = options.map((option, i) => {
         transform="scale(1) translate(-12,-12)"
       />
       <text
-        style="pointer-events: none"
+        class="text-xs pointer-events-none select-none"
         dominant-baseline="middle"
         text-anchor="middle"
         :transform="sector.transform"
