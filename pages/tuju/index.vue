@@ -222,6 +222,7 @@ const onSelect = (selection) => {
   <div class="">
     <div>
       <div>{{ page }}</div>
+      <button class="startbtn"><img src="/assets/back-btn.svg" /></button>
       <TestWheel v-if="page == 'start'">
         <TestSlices
           :options="start"
