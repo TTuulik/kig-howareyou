@@ -267,7 +267,7 @@ const onSelect = (selection) => {
 
       <CircleMenu v-if="page == 'down3'" :options="down3" @select="onSelect" />
 
-      <CircleMenu v-if="page == 'down4'" :options="down3" @select="onSelect" />
+      <CircleMenu v-if="page == 'down4'" :options="down4" @select="onSelect" />
     </div>
   </div>
 </template>
