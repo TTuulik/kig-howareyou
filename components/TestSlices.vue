@@ -78,10 +78,18 @@ const sectors = options.map((option, i) => {
         :y="sector.point.y"
         :href="sector.icon"
         :transform-origin="sector.point.x + ' ' + sector.point.y"
-        transform="scale(1) translate(-12,-12)"
+        transform="scale(1.25) translate(-12,-12)"
+      />
+      <image
+        v-if="sector.largeicon"
+        :x="sector.point.x"
+        :y="sector.point.y"
+        :href="sector.largeicon"
+        :transform-origin="sector.point.x + ' ' + sector.point.y"
+        transform="scale(2) translate(-12,-12)"
       />
       <text
-        class="text-xs pointer-events-none select-none"
+        class="text-xl pointer-events-none select-none"
         dominant-baseline="middle"
         text-anchor="middle"
         :transform="sector.transform"
