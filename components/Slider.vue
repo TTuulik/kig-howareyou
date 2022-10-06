@@ -23,7 +23,7 @@ const inputValue = computed({
   <input
     type="range"
     v-model.number="inputValue"
-    class="slider my-3 block h-px w-full cursor-pointer appearance-none bg-gray-500"
+    class="slider my-3 block h-px cursor-pointer appearance-none bg-gray-500"
   />
 </template>
 

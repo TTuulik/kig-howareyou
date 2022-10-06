@@ -128,44 +128,20 @@ const rotation = $ref(0);
 </script>
 
 <template>
-  <div class="flex items-center justify-center h-full">
-    <!-- <div class="fixed top-32 left-12 text-6xl font-bold opacity-80">
-      Feelings are normal. They need to be illuminated. Here is how you can do
-      it. Every day, mark an emotion. Or two. Or three.
-    </div> -->
-    <div class="p-8">
-      <TestWheel
-        :size="800"
-        :style="{
-          transform:
-            'translate(-50px,220px) rotate(' + rotation + 'deg) scale(1.3)',
-        }"
-      >
-        <TestSlices
-          @select="onSelect1"
-          :selection="selection"
-          :options="options"
-          :inner="0"
-          :outer="120"
-        />
-        <TestSlices
-          @select="onSelect1"
-          :selection="selection"
-          :options="options2"
-          :inner="120"
-          :outer="220"
-        />
-        <TestSlices
-          @select="onSelect1"
-          :selection="selection"
-          :options="options3"
-          :inner="220"
-          :outer="350"
-        />
-      </TestWheel>
-    </div>
-    <div class="fixed top-8 left-8">
-      <Slider v-model="rotation" class="w-64" max="360" />
-    </div>
+  <div class="p-4">
+    <input class="block w-64" type="range" v-model="rotation" max="360" />{{
+      rotation
+    }}
+    <TestWheel
+      :size="500"
+      class="border-2 w-full"
+      :style="{
+        transform: 'rotate(' + rotation + 'deg)',
+      }"
+    >
+      <circle r="200" />
+      <rect x="-100" y="-100" width="200" height="200" fill="white" />
+      <rect x="-90" y="-90" width="20" height="20" />
+    </TestWheel>
   </div>
 </template>

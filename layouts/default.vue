@@ -1,6 +1,6 @@
 <template>
-  <div class="relative h-screen">
+  <div class="">
     <slot></slot>
-    <Menu />
+    <!-- <Menu /> -->
   </div>
 </template>
