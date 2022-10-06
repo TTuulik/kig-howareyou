@@ -194,7 +194,7 @@ const down4 = [
   <div class="">
     <div>
       <div>Start</div>
-      <button class="startbtn"><img src="/assets/back-btn.svg"></button>
+            <button><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="start"
@@ -205,6 +205,7 @@ const down4 = [
         />
       </TestWheel>
       <div>Up</div>
+            <button><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="up"
@@ -215,6 +216,7 @@ const down4 = [
         />
       </TestWheel>
       <div>Up2</div>
+            <button><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="up2"
@@ -225,6 +227,7 @@ const down4 = [
         />
       </TestWheel>
       <div>Down</div>
+            <button><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="down"
@@ -235,6 +238,7 @@ const down4 = [
         />
       </TestWheel>
       <div>Abiks</div>
+            <button><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="down2"
@@ -246,6 +250,7 @@ const down4 = [
       </TestWheel>
 
       <div>Down3</div>
+            <button><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="down3"
@@ -257,6 +262,7 @@ const down4 = [
       </TestWheel>
 
       <div>Paus</div>
+            <button><img src="/assets/back-btn.svg"></button>
       <TestWheel>
         <TestSlices
           :options="down4"
