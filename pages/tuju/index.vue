@@ -31,7 +31,7 @@ const up = [
     icon: "/assets/smiling-face-with-halo.svg",
   },
   {
-    title: "tere",
+    title: "",
     fill: "#FECDD3",
     icon: "/assets/face-with-open-mouth.svg",
   },
@@ -52,26 +52,26 @@ const up = [
   },
 ];
 
-const up2 = [
+const Abiks = [
   {
-    title: "",
+    title: "Jaga sõpradega!",
     fill: "#FEF08A",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
   {
-    title: "",
+    title: "Mul on su üle hea meel!",
     fill: "#FDBA74",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
   {
-    title: "",
+    title: "Äge!",
     fill: "#FDE047",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
   {
-    title: "",
+    title: "Tähista!",
     fill: "#FECDD3",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
 ];
 
@@ -139,7 +139,34 @@ const down2 = [
     fill: "#F5E3A0",
     icon: "/assets/body-outline.svg",
   },
+
+  
 ];
+
+const down3 = [
+{
+    title: "MURELIK",
+    fill: "#DFF996",
+    
+  },
+  {
+    title: "SEGADUS",
+    fill: "#FEF08A",
+    
+  },
+  {
+    title: "ALANDUS",
+    fill: "#BBF7D0",
+    
+  },
+  {
+    title: "KAHETSUS",
+    fill: "#F5E3A0",
+  
+  },
+
+];
+
 </script>
 
 <template>
@@ -149,7 +176,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="start"
-          :inner="50"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -159,17 +186,17 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="up"
-          :inner="50"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
         />
       </TestWheel>
-      <div>Up2</div>
+      <div>Abiks</div>
       <TestWheel>
         <TestSlices
           :options="up2"
-          :inner="50"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -179,7 +206,7 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="down"
-          :inner="50"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
@@ -189,7 +216,18 @@ const down2 = [
       <TestWheel>
         <TestSlices
           :options="down2"
-          :inner="50"
+          :inner="4"
+          :outer="150"
+          :corner="5"
+          :padding="2"
+        />
+      </TestWheel>
+
+      <div>Down3</div>
+      <TestWheel>
+        <TestSlices
+          :options="down3"
+          :inner="4"
           :outer="150"
           :corner="5"
           :padding="2"
