@@ -145,7 +145,7 @@ const down2 = [
 
 const down3 = [
 {
-    title: "MURELIK",
+    title: "MURE",
     fill: "skyblue",
     
   },
