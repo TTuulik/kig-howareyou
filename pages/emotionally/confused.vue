@@ -14,7 +14,7 @@
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Engage in<br>compassionate self talk</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Focus on present</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Distract yourself temporarily</p>
-                <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Try muscle relaxation</p>
+                <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Try musical relaxation &#8594</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">5-4-3-2-1 Grounding Exercise &#8594</p>
             </div>
             <nuxt-link to="/emotionally/feelings">
