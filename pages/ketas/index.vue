@@ -130,7 +130,7 @@ const showMessage = $ref(true);
 </script>
 
 <template>
-  <div class="grid grid-rows-[1fr_auto] h-screen">
+  <div class="grid grid-rows-[1fr_auto] h-screen h-screen-ios">
     <div class="flex items-center justify-center overflow-hidden">
       <TestWheel
         class="w-[180vw] md:w-[60vw] -ml-[90vw] md:ml-0"
@@ -170,7 +170,7 @@ const showMessage = $ref(true);
     </div>
     <button
       class="fixed top-8 right-8 text-4xl font-bold duration-1000 transition"
-      :class="[showMessage ? 'opacity-[0.01] translate-y-4' : 'opacity-30']"
+      :class="[showMessage ? 'opacity-[0.01] -translate-y-4' : 'opacity-30']"
       @click="showMessage = !showMessage"
     >
       ◯
@@ -181,7 +181,7 @@ const showMessage = $ref(true);
       :class="[
         showMessage
           ? 'opacity-80'
-          : 'pointer-events-none opacity-0 translate-y-8',
+          : 'pointer-events-none opacity-0 -translate-y-8',
       ]"
     >
       Su tunded on sinu omad ja kõik on väärt mäletamist. Märka ja märgi kuidas
@@ -191,10 +191,9 @@ const showMessage = $ref(true);
 </template>
 
 <style>
-.debug {
-  @apply border-2 border-blue-500;
-}
-.debug > * {
-  @apply border-2 border-red-500;
+@supports (-webkit-touch-callout: none) {
+  .h-screen-ios {
+    height: -webkit-fill-available;
+  }
 }
 </style>
