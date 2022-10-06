@@ -169,9 +169,9 @@ const down3 = [
 
 const down4 = [
   {
-    title: "",
+    title: "Räägi oma taimedega.",
     fill: "#DFF996",
-    icon: "Räägi oma taimedega.",
+    icon: "",
   },
   {
     title: "Mine õue!",
