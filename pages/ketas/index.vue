@@ -167,7 +167,7 @@ const showMessage = $ref(true);
         </TestWheel>
       </div>
       <button
-        class="fixed top-8 right-8 text-4xl font-bold duration-1000 transition"
+        class="fixed top-8 right-8 text-xl font-bold duration-1000 transition"
         :class="[showMessage ? 'opacity-[0.01] -translate-y-4' : 'opacity-30']"
         @click="showMessage = !showMessage"
       >
