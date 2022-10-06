@@ -56,22 +56,22 @@ const up2 = [
   {
     title: "Jaga sõpradega!",
     fill: "#FEF08A",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
   {
     title: "Mul on su üle hea meel!",
     fill: "#FDBA74",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
   {
-    title: "",
+    title: "Äge!",
     fill: "#FDE047",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
   {
-    title: "",
+    title: "Tähista!",
     fill: "#FECDD3",
-    icon: "/assets/smiling-face-with-smiling-eyes.svg",
+    icon: "",
   },
 ];
 
