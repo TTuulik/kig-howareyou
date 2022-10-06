@@ -18,6 +18,7 @@
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Ask yourself<br>if your anger is reasonable</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Identify other emotions that your anger may be masking</p>
                     <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Listen to music &#8594</p>
+                    <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">5-4-3-2-1 Grounding Exercise &#8594</p>
                 </div>
                 <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
                     <img src="/assets/css/back.png" alt="back" class="w-8">

@@ -15,6 +15,7 @@
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Calm your environment</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Sleep</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Listen to music &#8594</p>
+                <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">5-4-3-2-1 Grounding Exercise &#8594</p>
                 <p style="color:#fff; text-align: center; font-size: 20px; padding-top: 14px;">Meditate &#8594</p>
             </div>
             <nuxt-link to="/emotionally/feelings" style="position: absolute; left: 20px; bottom: 20px;">
