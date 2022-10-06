@@ -55,7 +55,7 @@ const up = [
 const up2 = [
   {
     title: "",
-    fill: "FEF08A",
+    fill: "#FEF08A",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
   {
@@ -139,6 +139,8 @@ const down2 = [
     fill: "#F5E3A0",
     icon: "/assets/body-outline.svg",
   },
+
+  
 ];
 </script>
 
