@@ -31,7 +31,7 @@ const up = [
     icon: "/assets/smiling-face-with-halo.svg",
   },
   {
-    title: "tere",
+    title: "",
     fill: "#FECDD3",
     icon: "/assets/face-with-open-mouth.svg",
   },
@@ -54,7 +54,7 @@ const up = [
 
 const up2 = [
   {
-    title: "",
+    title: "Jaga sõpradega!",
     fill: "#FEF08A",
     icon: "/assets/smiling-face-with-smiling-eyes.svg",
   },
