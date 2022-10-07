@@ -182,8 +182,8 @@ const showMessage = $ref(true);
             : 'pointer-events-none opacity-0 -translate-y-8',
         ]"
       >
-        Su tunded on sinu omad ja kõik on väärt mäletamist. Märka ja märgi
-        kuidas sa ennast tunned.
+        Su tunded on sinu omad ja nad kõik on väärt mäletamist. Märka ja märgi,
+        kuidas sa end tunned.
       </div>
     </div>
     <div class="fixed right-4 bottom-12 left-4 flex justify-center">
