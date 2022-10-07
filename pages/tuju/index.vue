@@ -220,6 +220,7 @@ const showMessage = $ref(true);
 </script>
 
 <template>
+<img src="Tuju2.svg" margin=16px width=40px>
   <div class="md:flex md:justify-center">
     <div class="md:w-1/2">
       <TestWheel v-if="page == 'start'">
@@ -283,7 +284,8 @@ const showMessage = $ref(true);
           : 'pointer-events-none opacity-0 -translate-y-8',
       ]"
     >
-      TUJU. Kuidas sul läheb?
+    
+       Kuidas sul läheb?
     </div>
   </div>
 </template>
